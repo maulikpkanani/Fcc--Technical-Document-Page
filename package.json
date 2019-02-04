@@ -1,0 +1,15 @@
+{
+	"name": "technical-document-page",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"css-compiler": "node-sass --output dist/css scss/style.scss",
+		"css-watch": "npm run css-compiler && npm run css-compiler -- -w"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"node-sass": "^4.11.0"
+	}
+}
